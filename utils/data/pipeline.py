@@ -1,4 +1,4 @@
-from utils.data.storage import GDatabase
+from ..data.storage import GDatabase
 from abc import ABC, abstractmethod
 
 MODE_IND   = 0

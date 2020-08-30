@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from sklearn.utils import Bunch
-from utils.data.pipeline import DataLayer, MODE_IND, MODE_TRAIN, MODE_TEST
-from utils.data.storage import GDatabase
+from ..data.pipeline import DataLayer, MODE_IND, MODE_TRAIN, MODE_TEST
+from ..data.storage import GDatabase
 import pandas as pd
 import numpy as np
 

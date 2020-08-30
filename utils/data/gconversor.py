@@ -1,7 +1,7 @@
 import torch
 from torch_geometric.data import Data
 import numpy as np
-from utils.data.storage import GDatabase
+from ..data.storage import GDatabase
 from abc import ABC, abstractmethod
 
 class GConversor(ABC):
