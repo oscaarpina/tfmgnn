@@ -1,7 +1,7 @@
 import torch
 from torch_geometric.nn import GraphConv
 from torch_geometric.nn import global_mean_pool
-from adgnn.models.domain_block import DomainBlock
+from ..models.domain_block import DomainBlock
 
 class AALModel(torch.nn.Module):
   def __init__(self):
