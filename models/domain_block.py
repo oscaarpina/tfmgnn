@@ -3,7 +3,6 @@ from torch.nn.init import xavier_normal
 import torch
 from torch_scatter import segment_coo
 
-
 class DomainBlock(Module):
     def __init__(self, x_dim, ew_dim, out_dim, direct=False):
         super(DomainBlock, self).__init__()
