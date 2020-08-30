@@ -1,5 +1,5 @@
 from sklearn.utils import Bunch
-from utils.dl.metrics import BinaryMetric, BasicMetric, MultipleMetric
+from ..dl.metrics import BinaryMetric, BasicMetric, MultipleMetric
 
 class Report(Bunch):
     def __init__(self, **kwargs):

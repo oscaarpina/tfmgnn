@@ -1,5 +1,5 @@
-from utils.dl.report import Report
-from utils.dl.metrics import BinaryMetric
+from ..dl.report import Report
+from ..dl.metrics import BinaryMetric
 
 import copy
 class Trainer():
